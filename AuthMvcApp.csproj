@@ -3,6 +3,9 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="web.config" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Auth0.AspNetCore.Authentication" Version="1.0.3" />
   </ItemGroup>
 </Project>
